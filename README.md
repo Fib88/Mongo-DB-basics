@@ -25,11 +25,11 @@ For installation I followed the steps at [Mongo DB official website](https://doc
 
 
 
-### Inserting data with Mongo   
+### C - Inserting data with Mongo   
 *******
-### Finding data with Mongo
+### R - Finding data with Mongo
 *******
-### Updating data with Mongo
+### U - Updating data with Mongo
 *******
-### Deleting with Mongo
+### D- Deleting with Mongo
 
