@@ -14,7 +14,7 @@ For installation I followed the steps at [Mongo DB official website](https://doc
 *Mongo*
 
 *******
-###Creating a DB with Mongo:   
+### Creating a DB with Mongo:   
 ***commands:***   
 - *show databases* or *show dbs*
 - *use name of database*-> creates or selects a DB   
