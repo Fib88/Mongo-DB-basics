@@ -35,6 +35,7 @@ For installation I followed the steps at [Mongo DB official website](https://doc
  
 *******
 ### U - Updating data with Mongo
+*db.nameofcollection.update({name:"Fib"}, {$set{color:green}})* ->updates where name: Fib, second argument with *$set* operator updates the value of color to green
 *******
 ### D- Deleting with Mongo
 
