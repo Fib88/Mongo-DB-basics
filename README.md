@@ -38,5 +38,5 @@ For installation I followed the steps at [Mongo DB official website](https://doc
 *db.nameofcollection.updateOne({name:"Fib"}, {$set{color:green}})* ->updates one entry where name: Fib, second argument with *$set* operator updates the value of color to green
 *******
 ### D- Deleting with Mongo
-*db.nameofcollection.deleteOne({age:25})* ->deletes one entry where age:25
+*db.nameofcollection.deleteOne({age:25})* ->deletes one entry where age:25   
 *db.nameofcollection.deleteMany({})* -> deletes entire collection
