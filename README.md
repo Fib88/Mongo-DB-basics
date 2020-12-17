@@ -27,12 +27,12 @@ For installation I followed the steps at [Mongo DB official website](https://doc
 
 
 ### C - Inserting data with Mongo  
-<u>insert:</u>   
- db.nameofcollection.insert({name: "Fib", age: 100, coolGuy: True})   
- <u>showinserteddata:</u>   
- db.nameofcollection.find()
+  *db.nameofcollection.insert({name: "Fib", age: 100, coolGuy: True})* -> Inserts data into collection   
 *******
-### R - Finding data with Mongo
+### R - Finding data with Mongo      
+ *db.nameofcollection.find()* -> reads data from collection   
+ *db.nameofcollection.find({age:100})* -> filters data from collection where age:100 
+ 
 *******
 ### U - Updating data with Mongo
 *******
