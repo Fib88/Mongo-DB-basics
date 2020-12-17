@@ -20,12 +20,17 @@ For installation I followed the steps at [Mongo DB official website](https://doc
 - *use name of database*-> creates or selects a DB   
 - *show dbs* ->list of all databases created
 - *db* -> currently selected db
+-*show collections* -> lists collections in db
 
 *******
 
 
 
-### C - Inserting data with Mongo   
+### C - Inserting data with Mongo  
+<u>insert:</u>   
+ db.nameofcollection.insert({name: "Fib", age: 100, coolGuy: True})   
+ <u>showinserteddata:</u>   
+ db.nameofcollection.find()
 *******
 ### R - Finding data with Mongo
 *******
