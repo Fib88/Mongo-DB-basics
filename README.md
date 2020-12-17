@@ -33,6 +33,8 @@ For installation I followed the steps at [Mongo DB official website](https://doc
  *db.nameofcollection.find()* -> reads data from collection   
  *db.nameofcollection.find({age:100})* -> filters data from collection where age:100 
  
+ For specifying filter conditions more check out the docs at [query conditions](https://docs.mongodb.com/manual/tutorial/query-documents/#read-operations-query-argument)
+ 
 *******
 ### U - Updating data with Mongo
 *db.nameofcollection.updateOne({name:"Fib"}, {$set{color:green}})* ->updates one entry where name: Fib, second argument with *$set* operator updates the value of color to green
